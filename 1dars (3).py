@@ -11,5 +11,5 @@ class Student:
     @property
     def about(self):
         return f"I am {self.full_name}, I am {self.student}, I am {self.age}, I have {self.card_number} numbered in the student card"
-student = Student('Botirbek', 'To\'lqinov', 18, 245876, 'student')
+student = Student('Brave', 'To\'lqinov', 22, 123456, 'student')
 print(student.about)
